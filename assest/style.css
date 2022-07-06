@@ -66,11 +66,10 @@
   border-radius: 5px;
 }
 
-footer {
+.footer {
   border: 3px solid rgb(5, 5, 5);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  position: absolute;
+  top: 88%;
   width: 93.5%;
   padding: 10px 50px;
   margin: 20px 50px;
