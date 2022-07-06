@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'poppins', serif;
+  font-family: "poppins", serif;
 }
 
 .header {
@@ -18,21 +18,64 @@
 }
 
 .header ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header .main-menu {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .header .main-menu a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.main-menu a:hover{
-    
+.main-menu a:hover {
+}
+
+.title {
+  text-align: center;
+}
+
+.Add-books {
+  width: 40%;
+  margin: 12px;
+  padding: 10px;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.form .btn {
+  align-self: flex-end;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+footer {
+  border: 3px solid rgb(5, 5, 5);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 93.5%;
+  padding: 10px 50px;
+  margin: 20px 50px;
 }
