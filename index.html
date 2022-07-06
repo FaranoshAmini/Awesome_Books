@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./assest/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Awesome Books</h1>
+        <ul class="main-menu">
+          <li><a href="#">List</a></li>
+          <li><a href="#">Add New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <section class="Book-list" id="book-list">
+        <div class="title">
+            <h1>All Awesome Books</h1>
+            <ul class="bookList"></ul>
+          </div>
+      </section>
+      <section class="Add-books">
+
+        <form class="form" id="book-form" method="POST">
+            <h2>ADD NEW BOOKS</h2>
+            <input type="text" placeholder="Title" id="title-field" class="Form-title">
+            <input type="text" placeholder="Author" id="author-field" class="Form-author">
+            <button class="btn" id="btn-submit" type="submit">Add</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <p>&copy;copyright</p>
+      </footer>
+    </div>
+    <script src="./assest/script.js"></script>
+  </body>
+</html>
